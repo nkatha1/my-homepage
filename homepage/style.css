@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgba(67, 212, 123, 0.575);
+}
+
+.container{
+    display: flex;  /*  this displys items horizontally */
+    justify-content: space-evenly;  /*gives spaces between div elements*/
+    height: 80vh;
+    /* justify-content: center; */
+    align-items: center; /*places div elements to the center from top to bottom*/
+}
+
+.myinamge img{
+    border-radius: 50%;
+    border: 1px solid whitesmoke;
+}
+
+.description{
+    background: darkgray;
+    height: 300px;
+    width: 650px;
+    padding: 13px;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+}
+.span{
+    color: blueviolet;
+}
+.header{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 28px;
+    color: darkgreen;
+}
+.mydesc{
+    font-size: 22px;
+    font-weight: 500;
+}
+.moretext{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 14px;
+}
